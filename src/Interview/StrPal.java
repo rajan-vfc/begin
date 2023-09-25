@@ -1,5 +1,4 @@
 package Interview;
-
 import java.util.Scanner;
 
 public class StrPal {
