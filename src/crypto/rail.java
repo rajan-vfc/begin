@@ -38,9 +38,9 @@ public class rail {
 
         }
         for(int i=0;i<key;i++){
-            for(int j=0;j< str.length();j++){
+            for(int j=0;j<str.length();j++){
                 if(a[i][j]!=null){
-                    System.out.println(a[i][j]+" ");
+                    System.out.print(a[i][j]+" ");
                 }
             }
         }
@@ -48,7 +48,7 @@ public class rail {
     public static void main(String[] args) {
 
         Scanner sc =new Scanner(System.in);
-        System.out.println("enter String : ");
+        System.out.print("enter String : ");
         String pt=sc.nextLine();
 
         System.out.print("enter key value : ");
